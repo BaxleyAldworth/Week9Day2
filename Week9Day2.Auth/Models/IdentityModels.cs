@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using System;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Week9Day2.Auth.Models
 {
@@ -12,6 +13,7 @@ namespace Week9Day2.Auth.Models
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
+        [Column(TypeName = "DateTime2")]
         public DateTime BirthDate { get; set; }
 
 

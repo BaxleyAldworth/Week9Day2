@@ -177,6 +177,14 @@
     <Compile Include="Migrations\201512152021055_FnLn&amp;BirthDate.Designer.cs">
       <DependentUpon>201512152021055_FnLn&amp;BirthDate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201512152039523_ViewsUpdated.cs" />
+    <Compile Include="Migrations\201512152039523_ViewsUpdated.Designer.cs">
+      <DependentUpon>201512152039523_ViewsUpdated.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201512152047430_DateTime2inIdentityModels.cs" />
+    <Compile Include="Migrations\201512152047430_DateTime2inIdentityModels.Designer.cs">
+      <DependentUpon>201512152047430_DateTime2inIdentityModels.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -242,6 +250,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Member\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -254,6 +263,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201512152021055_FnLn&amp;BirthDate.resx">
       <DependentUpon>201512152021055_FnLn&amp;BirthDate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201512152039523_ViewsUpdated.resx">
+      <DependentUpon>201512152039523_ViewsUpdated.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201512152047430_DateTime2inIdentityModels.resx">
+      <DependentUpon>201512152047430_DateTime2inIdentityModels.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
