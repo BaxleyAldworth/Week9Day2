@@ -185,6 +185,10 @@
     <Compile Include="Migrations\201512152047430_DateTime2inIdentityModels.Designer.cs">
       <DependentUpon>201512152047430_DateTime2inIdentityModels.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201512162326404_Add Migration.cs" />
+    <Compile Include="Migrations\201512162326404_Add Migration.Designer.cs">
+      <DependentUpon>201512162326404_Add Migration.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -270,6 +274,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201512152047430_DateTime2inIdentityModels.resx">
       <DependentUpon>201512152047430_DateTime2inIdentityModels.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201512162326404_Add Migration.resx">
+      <DependentUpon>201512162326404_Add Migration.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
