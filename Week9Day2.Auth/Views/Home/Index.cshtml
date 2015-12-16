@@ -1,7 +1,19 @@
-﻿@{
+﻿@model Week9Day2.Auth.Models.ApplicationUser
+
+
+@{
     ViewBag.Title = "Home Page";
 }
 
-<% if (Request.IsAuthenticated) { %>
-<div class="welcome">Welcome, <%: Html.Action( "GetUserInfo", "Member" ) %></div>
-<% } %>
+
+<p class="lead"></p>
+
+<p><a href="http://asp.net" class="btn btn-primary btn-lg">Log In</a></p>
+
+<div class="row">
+    @Model.FirstName
+    @Model.LastName
+    @Model.BirthDate
+    @Model.Email
+
+</div>
